@@ -13,6 +13,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 @RequestMapping(value = "/IniciarCalculadora")
+
+
+//para Iniciar la aplicación http://localhost:8084/SpringCalculadoraBosque/IniciarCalculadora
 public class ControladorInicial {
 
     @RequestMapping(method = RequestMethod.GET)
